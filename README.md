@@ -22,16 +22,6 @@ Este proyecto representa una ruleta de apuestas online
 7. Espere que se compile la solución y se abra la ventana de Swagger
 8. Consulte los diferentes métodos
 
-**Compilación Docker (Opcional)**
-1. Desrcargar o clonar el proyecto
-2. Abrir el archivo appsettings.json en la sección "MongoDb" y modificar las llaves "ConnectionStrings" y "Database" según la DB de MongoDB que tenga.
-3. Abrir un símbolo del sistema o power shell y navegar hasta la carpeta donde se encuentra el proyecto.
-4. Utilice los siguientes comandos para compilar y ejecutar la imagen de Docker:
- - docker build -t mezubo_api .
- - docker run -d -p 8080:80 --name Mezubo_Api mezubo_api
-5. Dirigase a http://localhost:8080/ para acceder a su aplicación en un navegador web.
-    * Para más información y/o detalle consulte https://docs.docker.com/engine/examples/dotnetcore/
-
 **Construido con**
 
 * .Net Core 5.0
