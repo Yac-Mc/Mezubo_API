@@ -5,7 +5,7 @@ Este proyecto representa una ruleta de apuestas online
 
 **Pre-requisitos**
 
-* .Net Core 5.02
+* .Net Core 5.0
 * MongoDB 4.4
 * Visual studio 2019
 
