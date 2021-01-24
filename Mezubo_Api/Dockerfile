@@ -18,4 +18,4 @@ RUN dotnet publish "Mezubo_Api.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Mezubo_Api.dll"]
+ENTRYPOINT ["dotnet", "mezubo_api.dll"]
